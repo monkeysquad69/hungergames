@@ -3,7 +3,7 @@
     "particle": "hungergames:block/dirt",
     "bottom": "hungergames:block/dirt",
     "top": "hungergames:block/top",
-    "side": "hungergames:block/side"
+    "side": "hungergames:block/autumn_grass_block_side_overlay1"
   },
   "elements": [
     {   "from": [ 0, 0, 0 ],
