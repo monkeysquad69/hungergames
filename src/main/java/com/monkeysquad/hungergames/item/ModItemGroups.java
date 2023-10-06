@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.CANDY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CANDY);
                         entries.add(ModBlocks.AUTUMN_LEAVES_GRASS_BLOCK);
+                        entries.add(ModBlocks.LEAVES);
                     }).build());
     public static void registerItemGroups() {
         HungerGames.LOGGER.info("Registering Item Groups for" + HungerGames.MOD_ID);

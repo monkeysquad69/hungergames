@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block AUTUMN_LEAVES_GRASS_BLOCK = registerBlock("autumn_leaves_grass_block", new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
+    public static final Block LEAVES = registerBlock("leaves_block", new Block(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
