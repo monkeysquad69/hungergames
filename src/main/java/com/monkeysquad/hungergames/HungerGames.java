@@ -1,5 +1,8 @@
 package com.monkeysquad.hungergames;
 
+import com.monkeysquad.hungergames.block.ModBlocks;
+import com.monkeysquad.hungergames.item.ModItemGroups;
+import com.monkeysquad.hungergames.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,8 @@ public class HungerGames implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
