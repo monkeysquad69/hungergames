@@ -14,7 +14,6 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block AUTUMN_LEAVES_GRASS_BLOCK = registerBlock("autumn_leaves_grass_block", new Block(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK)));
 
-
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(HungerGames.MOD_ID, name), block);
