@@ -3,8 +3,7 @@
     "particle": "hungergames:block/dirt",
     "bottom": "hungergames:block/dirt",
     "top": "hungergames:block/top",
-    "side": "hungergames:block/side",
-    "overlay": "hungergames:block/side"
+    "side": "hungergames:block/side"
   },
   "elements": [
     {   "from": [ 0, 0, 0 ],
