@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CANDY);
                         entries.add(ModBlocks.AUTUMN_LEAVES_GRASS_BLOCK);
                         entries.add(ModBlocks.LEAVES);
+                        entries.add(ModItems.CANDY_SWORD);
                     }).build());
     public static void registerItemGroups() {
         HungerGames.LOGGER.info("Registering Item Groups for" + HungerGames.MOD_ID);
