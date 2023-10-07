@@ -15,11 +15,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item CANDY = registerItem("candy", new Item(new FabricItemSettings()));
-    public static final Item CANDY_SWORD = registerItem("candy_sword", new SwordItem(ModToolMaterial.CANDY, 5, 3f, new FabricItemSettings().maxCount(1)));
+    public static final Item CANDY_SWORD = registerItem("candy_sword", new SwordItem(ModToolMaterial.Gumy, 5, 3f, new FabricItemSettings().maxCount(1)));
 
-
-
-    public static final Item CANDY_SWORD = registerItem("candy_sword",new SwordItem(ModToolMaterial.Gumy, 5,2f, new FabricItemSettings()));
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
         entries.add(CANDY);
