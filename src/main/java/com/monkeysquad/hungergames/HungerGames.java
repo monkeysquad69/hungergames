@@ -1,6 +1,7 @@
 package com.monkeysquad.hungergames;
 
 import com.monkeysquad.hungergames.block.ModBlocks;
+import com.monkeysquad.hungergames.command.ChatToggle;
 import com.monkeysquad.hungergames.command.FreezePlayers;
 import com.monkeysquad.hungergames.item.ModItemGroups;
 import com.monkeysquad.hungergames.item.ModItems;
@@ -20,5 +21,6 @@ public class HungerGames implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		CommandRegistrationCallback.EVENT.register((dispatcher, dispatcher2, dispatcher3) -> FreezePlayers.register(dispatcher));
+		CommandRegistrationCallback.EVENT.register(((dispatcher, registryAccess, environment) -> ChatToggle.register(dispatcher)));
 	}
 }
