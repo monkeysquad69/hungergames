@@ -1,0 +1,6 @@
+{
+  "parent": "block/lava_flow",
+  "textures": {
+    "particle": "hungergames:blocks/flowing_green_lava"
+  }
+}

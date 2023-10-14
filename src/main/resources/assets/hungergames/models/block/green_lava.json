@@ -1,0 +1,7 @@
+{
+  "parent": "block/lava",
+  "textures": {
+    "flowing": "hungergames:blocks/flowing_green_lava",
+    "still": "hungergames:blocks/still_green_lava"
+  }
+}
